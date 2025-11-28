@@ -3,7 +3,7 @@ services:
     name: fence-blog-cms
     env: node
     plan: free
-    rootDir: blog-cms
+    rootDirectory: blog-cms
     buildCommand: npm install && npm run build
     startCommand: npm run start
     envVars:
